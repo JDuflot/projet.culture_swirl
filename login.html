@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le premier réseau social culturel: trouve tes amis, partage ton avis sur la culture pop et ludique. Obtiens des recommandations en fonction de tes affinités culturelles. ">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive-mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Martel+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+    <title>Culture Swirl - Partage ton avis sur la culture</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+         
+</head>
+
+
+<body>
+  <section>
+
+    <div id="background">
+        <h1>Culture Swirl</h1>
+        <div>
+            <img id="logo" src="./logo plume pc.svg" alt="logo">
+        </div>
+    </div>
+
+<!-- form left -->
+
+<div id="formLogin">
+   <div class="glassEffectLeft">
+
+        <form method="post" class="formLeft" action="">
+            
+            <h2 class="headerWelcomeBack">Welcome back !</h2>
+
+        <p class="loginWith">Se connecter avec :</p>
+         
+            
+        <ul class="loginList">
+            <li>
+               <a href="https://www." target="_blank"> 
+                <img src="./google+.png" alt="google+" />
+               </a>
+            </li>
+            <li>
+                <a href="https://www./" target="_blank"> 
+                 <img src="./fb.png" alt="facebook" />
+                </a>
+             </li>
+            <li>
+                <a href="https://www./" target="_blank"> 
+                 <img src="./apple.png" alt="apple" />
+                </a>
+            </li>
+        </ul>
+        
+        <label for="email"></label> 
+        <input type="email" class="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email"/>
+       
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Mot de passe">
+
+        <p class="forget">Mot de passe oublié ?</p>
+      
+        <div class="checkboxDiv">
+         <label for="checkbox">Se souvenir de moi  
+        <input type="checkbox" id="checkbox"> 
+         </label>    
+        </div>
+
+    
+     
+     
+        <button type="submit" id="loginBtn">Se connecter</button>
+  
+
+
+        </form>
+    </div>
+
+<!-- form right -->
+
+
+   <div class="glassEffectRight">
+
+    <form method="post" class="formRight" action="">
+       
+        <h2 class="headerWelcome">Bienvenue!</h2>
+        <a class="noLogin" href="">Visiter le site sans inscription</a>
+     
+        <p class="loginWith">Se connecter avec :</p>
+            <ul class="loginList">
+            <li>
+               <a href="https://www." target="_blank"> 
+                <img src="./google+.png" alt="google+" />
+               </a>
+            </li>
+            <li>
+                <a href="https://www./" target="_blank"> 
+                 <img src="./fb.png" alt="facebook" />
+                </a>
+             </li>
+            <li>
+                <a href="https://www./" target="_blank"> 
+                 <img src="./apple.png" alt="apple" />
+                </a>
+            </li>
+        </ul>
+     
+        
+        <label for="text"></label>
+        <input type="text" id="nameLog" placeholder="Nom">
+        <label for="text"></label>
+        <input type="text" id="firstnameLog" placeholder="Prénom">
+        <label for="pseudo"></label>
+        <input type="text" id="pseudoLog" placeholder="pseudo">
+        <label for="checkbox">Je souhaite publier sous mon pseudo  
+            <input type="checkbox" class="checkboxRight"> 
+             </label>    
+        
+        <label for="date"></label>
+        <fieldset>Date de naissance</fieldset>
+        <input type="date" id="dateLog" >
+
+        <label for="email"></label> 
+        <input type="email" class="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email"/>
+        
+        
+      
+        <div class="checkboxDiv">
+         <label for="checkbox">J'accepte les conditions générales  
+        <input type="checkbox" class="checkboxRight"> 
+         </label>    
+        </div>
+
+    
+     
+     
+        <button type="submit" id="inscriptionBtn">Inscription</button>
+
+
+
+
+    </form>
+
+
+
+</div>
+
+</div>
+
+  </section> 
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@media screen and(max-width:900px) {
+   
+        div #logo {
+
+            background-color: aqua;
+            padding-bottom: 2.5em;
+            width:2em;
+            height: 3em;
+            
+        }
+
+    }
+    

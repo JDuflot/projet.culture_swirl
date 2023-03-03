@@ -1,0 +1,545 @@
+@font-face {
+    font-family: "Martel sans";
+    src: url(./Font/Martel_Sans/MartelSans-Black.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-Bold.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-ExtraBold.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-ExtraLight.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-Light.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-Regular.ttf);
+    src: url(./Font/Martel_Sans/MartelSans-SemiBold.ttf);
+
+    font-family: "Dancing script";
+    src: url(./Font/DancingScript-Bold.ttf);
+    src: url(./Font/DancingScript-Medium.ttf);
+    src: url(./Font/DancingScript-Regular.otf);
+    src: url(./Font/DancingScript-Regular.ttf);
+    src: url(./Font/DancingScript-SemiBold.ttf);
+    src: url(./Font/DancingScript-VariableFont_wght.ttf);
+
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+* {
+    margin:0;
+    width: 100%; 
+    
+    }
+
+    /* Page Accueil */
+/* Arrière plan */
+#background {
+    position: relative;
+    background-image: linear-gradient(180deg, rgba(0, 44, 96, 0.23) 10%, rgba(74, 248, 216, 0.23) 90%);
+    height: 58.45em;;
+}
+h1{
+    display: none;
+}
+
+div  {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+
+}
+/* logo Accueil */
+div #logo {
+
+    background-color: white;
+    padding-bottom: 2.5em;
+    width: 78em;
+    height: 58.45em;
+    
+}
+
+/* responsive tablette paysage */
+ @media (min-width: 900px) and (max-width: 1024px) {
+   
+   
+   
+    div #logo {
+
+       padding-left: 2em;
+       padding-right: 2em;
+        padding-bottom: 2.5em;
+        width:38em;
+        height: 55em;
+        
+    }
+
+} 
+/* Responsive tablette portrait */
+@media (min-width: 768px) and (max-width: 900px) {
+   
+    #background{
+       height: ;
+    }
+   
+    div #logo {
+
+       padding-left: 2em;
+       padding-right: 2em;
+        padding-bottom: 2.5em;
+        width:38em;
+        height: 55em;
+        
+    }
+
+}
+/* Responsive mobile */
+@media (min-width: 480px) and (max-width: 768px) {
+   
+
+   
+    div #logo {
+
+       padding-left: 2em;
+       padding-right: 2em;
+        padding-bottom: 2.5em;
+        width:28em;
+        height: 55em;
+        
+    }
+
+}
+
+/* /////////////////////////////////////   Page Log in    ////////////////////////////////////////////////////////////////////*/
+
+#formLogin {
+    position: absolute;
+    top: 0;
+    margin-top: 1%;
+    
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+/* ////////////////////////////// Page Welcome back //////////////////////////////*/
+
+.glassEffectLeft {
+    display: flex;
+    width: 585px;
+    height: 868px;
+    border-radius: 10px 10px 10px 10px ;
+  
+    background: rgba(0, 44, 96, 0.3);
+    border: 0.5px solid #000000;
+    backdrop-filter: blur(5px);
+
+    filter: drop-shadow(0 0 0.75rem rgba(0,44, 96, 0.3));
+}
+
+
+.loginList img {
+
+    width: 30%; 
+    
+
+}
+
+.loginList img:hover {
+
+    transform: scale(1.2);
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px #002C60;
+
+}
+
+
+.loginList li {
+ 
+   list-style: none;
+   text-align: center;
+   width: 140px;
+   margin-left: 4%
+}
+
+ul.loginList  {
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.loginWith {
+    text-align: center;
+    font-family: "Martel sans";
+    font-size: 20px;
+
+}
+
+.glassEffectRight {
+    display: flex;
+    width: 585px;
+    height: 868px;
+    border-radius: 10px 10px 10px 10px ;
+    background: rgba(0, 44, 96, 0.3);
+    border: 0.5px solid #000000;
+    backdrop-filter: blur(5px);
+   
+}
+.headerWelcome {
+    font-size: 94px;
+    text-align: center;
+    font-family: "Dancing script";
+       
+}
+
+.email,#password {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid rgba(45, 167, 168, 1);
+    
+
+}
+
+.forget {
+    text-align: end;
+    padding-right: 20%;
+    padding-top: 2%;
+    text-decoration: underline;
+}
+.forget:hover {
+    font-weight: bold;
+}
+
+#checkbox {
+    display: inline;
+    float:left;
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 12%;
+    margin-right: -40px;
+
+}
+
+#loginBtn {
+
+    background-color:#002C60;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    width: 254px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+#loginBtn:hover {
+    cursor: pointer;
+    background:
+    linear-gradient(
+      to top,
+      rgba(0, 44, 96, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to top,
+      rgba(0, 44, 96, 1),
+      rgba(100, 200, 200, 1),
+      rgba(0, 100, 200, 1)
+  );
+   background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+/* //////////////////////////////Login Page Right //////////////////////////////*/
+
+.noLogin{
+    margin-left: 30%;
+    font-family: "Martel sans";
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.noLogin:hover{
+    text-decoration: underline;
+    color: #002C60;
+}
+
+#nameLog, #firstnameLog, #dateLog, #pseudoLog { 
+width: 60%;
+margin-left: 20%;
+;
+padding: 12px 20px;
+box-sizing: border-box;
+border-radius: 10px;
+border: 2px solid rgba(45, 167, 168, 1);
+}
+
+fieldset {
+    text-align: center;
+}
+
+#inscriptionBtn {
+
+    background-color: #002C60;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    width: 254px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+
+#inscriptionBtn:hover {
+    cursor: pointer;
+     
+    background:
+    linear-gradient(
+      to top,
+      rgba(0, 44, 96, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to top,
+      rgba(0, 44, 96, 1),
+      rgba(100, 200, 200, 1),
+      rgba(0, 100, 200, 1)
+  );
+   background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+
+/* responsive tablette paysage */
+@media (min-width: 900px) and (max-width: 1024px) {
+   
+    #formLogin {
+        width: 90%;
+    }
+   
+    .headerWelcome {
+        font-size: 56px;
+    }
+    .loginWith{
+        font-size: 20px;
+    }
+    .noLogin{
+        font-size: 18px; 
+        margin-left: 23%;  
+    }
+    ul.loginList {
+    
+        width: 80%;
+        margin-left: 5%;
+    
+    }
+    
+
+} 
+
+/* Responsive tablette portrait */
+@media (min-width: 768px) and (max-width: 900px) {
+    
+#formLogin {
+    width: 65%;
+    margin-left: 18%;
+}
+
+.glassEffectLeft{
+    width: 70%;
+}
+
+.glassEffectRight{
+    width: 70%;
+}
+
+.headerWelcome {
+    font-size: 42px;
+}
+.loginWith{
+    font-size: 18px;
+}
+.noLogin{
+    font-size: 16px;
+    margin-left: 18%;   
+}
+ul.loginList {
+
+    width: 80%;
+
+}
+#loginBtn {
+    width: 50%;
+    font-size: 150%;
+    margin-left: 28%;
+}
+
+#checkbox{
+    width: 30%;
+}
+.checkboxRight{
+    display: inline;
+    width: 20px;
+    margin-top: 5%;
+}
+#inscriptionBtn {
+    width: 50%;
+    font-size: 150%;
+    margin-left: 28%;
+}
+}
+
+/* Responsive mobile */
+@media (min-width: 360px) and (max-width: 768px){
+    
+    /* div #logo {
+
+         padding-bottom: 5.5em;
+         width:28em;
+         height: 55em;
+         
+     }  */
+
+
+    #formLogin {
+        
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+       
+    }
+
+    div.glassEffectLeft{
+        width: 130%;
+        margin-left: -35px;
+        
+    }
+    .glassEffectLeft{
+       padding-right: 55%;
+       height: 342px;
+       backdrop-filter: blur(15px);
+
+    }
+    div.glassEffectRight{
+        width: 130%;
+        margin-left: -35px;
+    }    
+    .glassEffectRight{
+        width:50%;
+        height:342px;
+        backdrop-filter: blur(15px);
+        
+    }  
+    h2.headerWelcomeBack {
+        display: inline;
+        font-family: "dancing script";    
+        font-size: 22px;
+        margin-left: 20%;
+    }
+
+    h2.headerWelcome {
+        display: inline;
+        font-family: "dancing script";    
+        font-size: 22px;
+        margin-left: 39%;
+    }
+ 
+    p.loginWith{
+        font-size: 12px;
+        margin-left:0%;
+    }
+
+    a.noLogin{
+        display: inline;
+        margin-right: 0%;
+        padding-left: 5%;
+        font-size: 12px;
+        
+    }
+   
+   
+.formLeft{
+    margin-left: 70%;
+}
+
+.formRight{
+    margin-left: 5%;
+}
+    ul.loginList{
+        width: 150%;
+
+    }
+    .email,#password {
+        width: 60%;
+        margin-top: 5%;
+        padding: 10px 15px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        border: 2px solid rgba(45, 167, 168, 1);
+}
+#password::placeholder{
+    font-size:small ;
+    margin: 0;
+}
+}
+
+
+/* ARRET  */
+#formLogin {
+    width: 65%;
+    margin-left: 18%;
+}
+
+.glassEffectLeft{
+    width: 70%;
+}
+
+.glassEffectRight{
+    width: 70%;
+}
+
+.headerWelcome {
+    font-size: 42px;
+}
+.loginWith{
+    font-size: 18px;
+}
+.noLogin{
+    font-size: 16px;
+    margin-left: 18%;   
+}
+ul.loginList {
+
+    width: 80%;
+
+}
+#loginBtn {
+    width: 50%;
+    font-size: 150%;
+    margin-left: 28%;
+}
+
+#checkbox{
+    width: 30%;
+}
+.checkboxRight{
+    display: inline;
+    width: 20px;
+    margin-top: 5%;
+}
+#inscriptionBtn {
+    width: 50%;
+    font-size: 150%;
+    margin-left: 28%;
+}
+}
